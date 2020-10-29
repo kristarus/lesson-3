@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-block {
+  height: 64px;
+  background-color: black;
+}
+
+.block {
+  width: 80%;
+  padding-top: 18px;
+  margin: 0 auto;
+}
+
+.central {
+  display: inline-block;
+  width: 42%;
+
+  border: solid black;
+}
+
+ul.menu {
+  float: right;
+  font-family: "Raleway", sans-serif;
+}
+
+ul.menu li {
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  margin-left: 22px;
+}
+
+.logo {
+  display: inline-block;
+  width: 79px;
+}
+
+/* Block 2 */
+
+.header {
+  margin-bottom: 66px;
+}
+
+.line {
+  width: 8%;
+  height: 2px;
+  margin: 22px auto;
+  background-color: #ff8b38;
+}
+
+.color-gray {
+  color: #86878b;
+}
+
+.awesome {
+  margin-bottom: 100px;
+  text-align: center;
+  padding-top: 102px;
+  font-family: "Raleway", sans-serif;
+}
+
+.card {
+  width: 30%;
+  display: inline-block;
+}
+
+.card_title {
+  margin-bottom: 16px;
+}
+
+.m-rl-33 {
+  margin: 0 33px;
+}
+
+.card_image {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 27px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image_question1 {
+  background-image: url(./images/icon1.png);
+}
+
+.image_question2 {
+  background-image: url(./images/icon2.png);
+}
+
+.image_question3 {
+  background-image: url(./images/icon3.png);
+}
+
+/* Block 3 */
+
+.main-download {
+  width: 100%;
+  height: 297px;
+  background: url(./images/background.png) no-repeat center;
+  font-family: "Raleway", sans-serif;
+}
+
+.dark-background {
+  width: 100%;
+  height: 297px;
+  text-align: center;
+  padding-top: 54px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contacts-block {
+  padding: 0 auto;
+  width: 100%;
+  height: 124px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.color-white {
+  color: white;
+}
+
+.button-download {
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.button-download:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contacts-links {
+  margin: 0 auto;
+  width: 416px;
+}
+
+.icons {
+  margin: 28px 17px;
+  width: 32px;
+}
